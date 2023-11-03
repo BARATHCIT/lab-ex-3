@@ -1,0 +1,18 @@
+<html>
+<body>
+<p id="demo"></p>
+<p id="demo1"></P>
+<script>
+let text="";
+let sum=0;
+let n=prompt("enter the number");
+for (let i = 0; i <= n; i++)
+{
+  text += "The number is " + i + "<br>";
+  sum=sum+i;
+}
+document.getElementById("demo1").innerHTML = text;
+document.getElementById("demo").innerHTML = " sum of n natural number is "+ sum;
+</script>
+</body>
+</html>
